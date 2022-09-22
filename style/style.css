@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  box-sizing: border-box;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+  background-color: #782C81;
+}
+
+.card {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+
+  width: 400px;
+  height: 400px;
+  background-color: #e2cee5;
+  border-radius: 10px;
+}
+
+.card .title {
+  text-align: center;
+  padding: 15px;
+  padding-top: 38px;
+
+  color: #154b6f;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.card .form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  margin-top: 20px;
+  text-align: center;
+}
+.card .form label {
+  color: #154b6f;
+  text-transform: lowercase;
+}
+
+.card .form input {
+  margin: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.card .form input:focus,
+select:focus {
+  outline: none;
+}
+
+.card .form select {
+  margin-top: 15px;
+  padding: 3px 0 3px 3px;
+  /* background: none; */
+  border-radius: 5px;
+  width: 100px;
+}
+
+.card .form option{
+  text-align: center;
+}
+
+.card .form button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  background-color: #782C81;
+  color: #e0bce4;
+
+  transition: background-color 0.3s;
+}
+
+.card .form button:hover {
+  background-color: #66156f;
+}
